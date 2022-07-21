@@ -9,6 +9,7 @@ import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
 import com.goncharuk.pandora.databinding.ActivityFullscreenBinding
+import com.google.firebase.iid.FirebaseInstanceId
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -152,5 +153,9 @@ class FullscreenActivity : AppCompatActivity() {
          * and a change of the status and navigation bar.
          */
         private const val UI_ANIMATION_DELAY = 300
+    }
+
+    fun kek(){
+        FirebaseInstanceId.getInstance()
     }
 }

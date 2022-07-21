@@ -1,0 +1,13 @@
+ext {
+    applicationId = "com.goncharuk.pandora"
+
+    mCompileSdkVersion = 30
+    mTargetSdkVersion = 30
+    mMinSdkVersion = 26
+
+    mVersionCode = 22
+    iteration = "0"
+    sprintNumber = "0"
+    buildInSprint = "0"
+    mVersionName = "$iteration.$sprintNumber.$buildInSprint"
+}

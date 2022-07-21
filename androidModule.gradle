@@ -1,0 +1,11 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'kotlin-kapt'
+
+repositories {
+    google()
+    mavenCentral()
+    maven { url "https://maven.google.com" }
+    maven { url 'https://jitpack.io' }
+}
